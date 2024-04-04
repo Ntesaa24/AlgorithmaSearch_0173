@@ -34,3 +34,11 @@ void LinearSeacrh()
 	int ctr; // Number of comparisons 
 	int item; 
 
+	do 
+	{
+		// Accept the number to be seacrhed 
+		cout << "\nEnter the element you wnt to seacrh: "; //step 1 
+		cin >> item; 
+
+		ctr = 0; 
+		i = 0; //step 2 

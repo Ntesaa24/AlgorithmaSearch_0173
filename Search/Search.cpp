@@ -30,9 +30,9 @@ void input()
 
 void LinearSeacrh()
 {
-	char ch; 
+	char ch;
 	int ctr; // Number of comparisons 
-	int item; 
+	int item;
 
 	do
 	{
@@ -60,5 +60,11 @@ void LinearSeacrh()
 		cout << "\nContinue search (y/n): ";
 		cin >> ch;
 
-	} while ((ch == 'y') || (ch == 'y')); 
+	} while ((ch == 'y') || (ch == 'y'));
+} 
+
+void display()
+{
+
+}
 

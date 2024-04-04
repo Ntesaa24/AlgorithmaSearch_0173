@@ -65,6 +65,6 @@ void LinearSeacrh()
 
 void display()
 {
-
+	cout << "Array elemnts are: "; 
 }
 

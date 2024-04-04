@@ -66,5 +66,8 @@ void LinearSeacrh()
 void display()
 {
 	cout << "Array elemnts are: "; 
+	for (i = 0; i < n; i++)
+		cout << arr[i] << " "; 
+	cout << endl; 
 }
 

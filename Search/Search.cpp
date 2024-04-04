@@ -27,3 +27,10 @@ void input()
 		cin >> arr[i];
 	}
 }
+
+void LinearSeacrh()
+{
+	char ch; 
+	int ctr; // Number of comparisons 
+	int item; 
+

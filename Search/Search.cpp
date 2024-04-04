@@ -34,21 +34,31 @@ void LinearSeacrh()
 	int ctr; // Number of comparisons 
 	int item; 
 
-	do 
+	do
 	{
 		// Accept the number to be seacrhed 
 		cout << "\nEnter the element you wnt to seacrh: "; //step 1 
-		cin >> item; 
+		cin >> item;
 
-		ctr = 0; 
+		ctr = 0;
 		i = 0; //step 2 
 		while (i < n) // step 3 
 		{
 			ctr++;
 			if (arr[i] == item)
 			{
-				cout << "\n" << " found at position " << (i + 1) << endl; // step 6 
+				cout << "\n" << item << " found at position " << (i + 1) << endl; // step 6 
 				break;
 			}
 			i++; // step 4 
-		} 
+		}
+
+		if (i == n) // step 5 
+			cout << "\n" << item << " not found in the array\n";
+		cout << "\nNumber of comparisons: " << ctr << endl;
+
+		cout << "\nContinue search (y/n): ";
+		cin >> ch;
+
+	} while ((ch == 'y') || (ch == 'y')); 
+
